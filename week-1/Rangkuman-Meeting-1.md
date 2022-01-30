@@ -7,10 +7,25 @@ Tujuan : Agar proses deploy perubahan / update suatu software menjadi terotomati
 ## Alur DevOps & Konsep CI/CD
 
 <p align="center"><img src="../week-1/assets/DevOps.png"></p>
--- Alur dimulai dari DevOps membuat rancangan yang diserahkan ke Developer (Programmer)
--- ddd
+
+- Alur dimulai dari DevOps membuat rancangan perubahan / update yang diserahkan ke Developer (Programmer)
+- Developer membuat code
+- Debeloper memberikan code ke DevOps
+- DevOps melakukan release. jika ada masalah maka dikembalikan ke Developer untuk diperbaiki
+- Jika tidak DevOps melakukan deploy ke publik
+- kemudian DevOps memantau software
+
+
 
 ## Virtualization & Container
+
+- Virtualization : Suatu metode untuk membuat Virtual Machine untuk minginstal berbagai Operation System dalam satu hardware dengan spesifikasi yang ditentukan diawal pembuatan.
+
+<p align="center"><img src="../week-1/assets/Virtual Machine.png"></p>
+
+- Container : Suatu metode untuk membuka berbagai aplikasi sesuai dengan spesifikasi kebutuhan aplikasi tersebut
+
+<p align="center"><img src="../week-1/assets/Container.png"></p>
 
 ## Cloud Computing
 
