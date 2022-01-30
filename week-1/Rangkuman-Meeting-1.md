@@ -15,7 +15,9 @@ Tujuan : Agar proses deploy perubahan / update suatu software menjadi terotomati
 - Jika tidak DevOps melakukan deploy ke publik
 - kemudian DevOps memantau software
 
+Continuous integration (CI) : pengintegrasian kode ke dalam repositori kode kemudian menjalankan pengujian secara otomatis.
 
+continuous deployment (CD) : adalah praktik yang dilakukan setelah proses CI dan seluruh kode berhasil terintegrasi.
 
 ## Virtualization & Container
 
