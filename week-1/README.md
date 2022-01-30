@@ -1,7 +1,7 @@
 # Week 1
 Jelaskan maksud dari week 1 ini, apa yang akan Anda buat serta berikan gambar arsitekturnya.
 
-# Kebutuhan
+## Kebutuhan
 Jelaskan kebutuhan yang harus ada sebelum memulai, seperti:
 - Server : -
 - Security group : -
