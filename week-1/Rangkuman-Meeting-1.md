@@ -6,6 +6,8 @@ Tujuan : Agar proses deploy perubahan / update suatu software menjadi terotomati
 
 ## Alur DevOps & Konsep CI/CD
 
+![Alur DevOps](week-1/assets/DevOps.png)
+
 ## Virtualization & Container
 
 ## Cloud Computing
