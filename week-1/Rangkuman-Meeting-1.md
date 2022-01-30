@@ -33,3 +33,13 @@ continuous deployment (CD) : adalah praktik yang dilakukan setelah proses CI dan
 
 Cloud Computing adalah metode penyampaian berbagai layanan melalui internet. Seorang DevOps harus paham mengenai Cloud Computing karena berhubungan dengan penyimpanan secara publik agar bisa diakses oleh user dimana saja dan kapan saja.
 
+Cloud Computing memiliki 3 layanan : 
+
+<p align="center"><img src="../week-1/assets/Cloud-computing.jpg"></p>
+
+1.IaaS (Infrastructure as a Service) : layanan cloud yang pada dasarnya merupakan server fisik dan virtual server. Penyedia layanan IaaS menyediakan resource cloud seperti server, jaringan, storage dan ruang data center.
+
+2.PaaS (Platform as a Service) : layanan Cloud yang disediakan dalam bentuk platform dan dapat dimanfaatkan pengguna untuk membuat aplikasi di atasnya. PaaS memberikan framework bagi developer yang dapat mereka bangun dan gunakan untuk membuat aplikasi yang telah disesuaikan.
+
+3.Saas (Software as a Service) : Sebuah perangkat lunak yang dijadikan sebagai layanan yang bersifat online, SaaS ini juga disebut sebagai layanan aplikasi Cloud.
+
