@@ -1,1 +1,1 @@
-# Langkah - langkah Instal Ubuntu Server diVMware
+# Langkah - langkah Install Ubuntu Server diVMware
