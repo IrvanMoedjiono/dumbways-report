@@ -82,7 +82,7 @@
 
 <p align="center"><img src="../week-2/assets/Version-Control-Git/4.png"></p>
 
-### Study Case Git Merge on Proccess Development, Staging, and Production
+### Study Case Git Merge on Process Development, Staging, and Production
 
 1. Branch development merupakan ruang kerja bagi developer untuk membuat perubahan, testing, dll. pada branch developer.
 
