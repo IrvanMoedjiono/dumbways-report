@@ -1,4 +1,4 @@
-# Assignment Week 1
+# Assignment Week 1 Stage 1
 
 1. [Rangkuman Meeting 1](Rangkuman-Meeting-1.md)
 2. [Rangkuman Meeting 2](Rangkuman-Meeting-2.md)
