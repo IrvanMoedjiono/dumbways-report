@@ -1,6 +1,6 @@
 ## Teks Editor Nano
 
-Teks editor Nano adalah teks editor default bawaan dari terminal linux. Berfungsi untuk memanipulasi teks di terminal tanpa meskipun tanpa GUI (Graphic User Interface)
+Teks editor Nano adalah teks editor default bawaan dari terminal linux. Berfungsi untuk memanipulasi teks di terminal meskipun tanpa GUI (Graphic User Interface)
 
 ## Dokumentasi Shortcut teks editor Nano
 
