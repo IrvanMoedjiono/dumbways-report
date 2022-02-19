@@ -2,26 +2,26 @@
 
     Monitoring suatu server adalah kegiatan memantau kinerja yang sedang berjalan pada suatu server. Monitoring bertujuan untuk mendapatkan informasi tentang kesehatan dan peforma server, serta mengetahui apabila terjadi suatu masalah pada server.
 
-- sudo apt install htop : untuk menginstal htop
-- htop : untuk membuka htop
+- `sudo apt install htop` : untuk menginstal htop
+- `htop` : untuk membuka htop
 
 <p align="center"><img src="../week-3/assets/Monitoring/1.png"></p>
 
-- lsof : untuk menampilkan semua daftar system yang berjalan saat perintah dibuat
-- lsof -u (nama-user) : untuk menampilkan daftar system yang berjalan pada user yang disebutkan saat perintah dibuat
+- `lsof` : untuk menampilkan semua daftar system yang berjalan saat perintah dibuat
+- `lsof -u nama-user` : untuk menampilkan daftar system yang berjalan pada user yang disebutkan saat perintah dibuat
 
 <p align="center"><img src="../week-3/assets/Monitoring/3.png"></p>
 <p align="center"><img src="../week-3/assets/Monitoring/4.png"></p>
 
-- sudo lsof -i :(nama-port) : untuk menampilkan daftar system yang berjalan pada port yang disebutkan saat perintah dibuat
+- `sudo lsof -i :nama-port` : untuk menampilkan daftar system yang berjalan pada port yang disebutkan saat perintah dibuat
 
 <p align="center"><img src="../week-3/assets/Monitoring/5.png"></p>
 
-- ps -f -u (nama-user) : untuk menampilkan system yang berjalan pada user yang disebutkan saat perintah dibuat
+- `ps -f -u nama-user` : untuk menampilkan system yang berjalan pada user yang disebutkan saat perintah dibuat
 
 <p align="center"><img src="../week-3/assets/Monitoring/6.png"></p>
 
-- ps -aux : untuk menampilkan semua daftar system yang berjalan saat perintah dibuat
+- `ps -aux` : untuk menampilkan semua daftar system yang berjalan saat perintah dibuat
 
 <p align="center"><img src="../week-3/assets/Monitoring/7.png"></p>
 
