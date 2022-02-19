@@ -1,14 +1,5 @@
-# Week 4
-Jelaskan maksud dari week 4 ini, apa yang akan Anda buat serta berikan gambar arsitekturnya.
+# Assignment Task Week 4
 
-# Kebutuhan
-Jelaskan kebutuhan yang harus ada sebelum memulai, seperti:
-- Server : -
-- Security group : -
-- Aplikasi frontend : -
-- Aplikasi backend : -
-- Dll
+1. [Application and Service Manangement]()
 
-# Penyelesaian
-- [Setup monitoring](setup-monitoring.md)
-- [Setup ansible & Membuat ansible playbook untuk konfigurasi server](setup-ansible-dan-membuat-ansible-playbook-untuk-konfigurasi-server.md)
+2. [Reverse Proxy and Load Balancing]()
