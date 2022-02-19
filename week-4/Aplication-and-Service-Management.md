@@ -1,6 +1,6 @@
 ## Create Simple Aplication
 
-Aplication :
+Aplication : Software yang melakukan fungsi spesifik secara langsung untuk pengguna akhir. Aplikasi dapat berjalan secara mandiri atau secara bersamaan dengan sekelompok program.
 
 ### Node.js
 
@@ -40,8 +40,48 @@ Aplication :
 <p align="center"><img src="../week-4/assets/Application-and-Service-Management/7.png"></p>
 ### Python
 
+- `sudo apt install python3-pip` : untuk menginstall python package manager
+
+<p align="center"><img src="../week-4/assets/Application-and-Service-Management/8.png"></p>
+
+- `pip install flask` : untuk menginstall flask python
+
+<p align="center"><img src="../week-4/assets/Application-and-Service-Management/9.png"></p>
+
+<p align="center">Buat direktori untuk aplikasi python > masuk direktori yg sudah dibuat > buat file index.py `nano index.py` > copy script simpel hello world dibawah > simpan > jalankan dengan perintah `python3 index.py` > buka web browser dan masukkan alamat `localhost:5000`</p>
+<p align="center"><img src="../week-4/assets/Application-and-Service-Management/10.png"></p>
+<p align="center"><img src="../week-4/assets/Application-and-Service-Management/11.png"></p>
+<p align="center"><img src="../week-4/assets/Application-and-Service-Management/12.png"></p>
+
 ### Golang
+
+- `wget https://golang.org/dl/go1.16.5.linux-amd64.tar.gz && sudo su` : untuk download Golang dan masuk ke user root
+
+<p align="center"><img src="../week-4/assets/Application-and-Service-Management/13.png"></p>
+
+- `rm -rf /usr/local/go && tar -C /usr/local -xzf go1.16.5.linux-amd64.tar.gz && exit` : untuk menghapus instalasi go sebelumnya pada user root dan mengekstrak file Golang pada user root dan keluar user root
+
+<p align="center"><img src="../week-4/assets/Application-and-Service-Management/14.png"></p>
+
+- `export PATH=$PATH:/usr/local/go/bin` : untuk memasukkan path Golang pada bashrc
+- `go version` : untuk mengecek versi Golang
+
+<p align="center"><img src="../week-4/assets/Application-and-Service-Management/15.png"></p>
+
+<p align="center">Buat script golang `nano index.go` dan copy script dibawah ini untuk simpel app golang > simpan > jalankan dengan perintah `go run index.go`</p>
+<p align="center"><img src="../week-4/assets/Application-and-Service-Management/16.png"></p>
+<p align="center"><img src="../week-4/assets/Application-and-Service-Management/17.png"></p>
 
 ## Service Management
 
-- sudo systemctl start
+Service management adalah satu set kemampuan dari suatu aplikasi untuk menyediakan fitur manajemen semua aplikasi yang ada pada sistem operasi.
+
+Fungsinya memberikan sebuah metode untuk mengaktifkan system resources, daemons dan proses lainnya baik itu ketika booting maupun ketika sistem berjalan.
+
+- `sudo systemctl status nginx` : untuk melihat kondisi service nginx
+- `sudo systemctl start nginx` : untuk menjalankan service nginx
+- `sudo systemctl enable nginx` : untuk mengaktifkan fitur start service nginx secara otomatis ketika sistem operasi dinyalakan
+- `sudo systemctl disable nginx` : untuk menonaktifkan fitur start service nginx secara otomatis ketika sistem operasi dinyalakan
+- `sudo systemctl restart nginx` : untuk memulai ulang service nginx
+
+<p align="center"><img src="../week-4/assets/Application-and-Service-Management/18.png"></p>
