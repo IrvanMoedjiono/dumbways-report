@@ -1,6 +1,6 @@
 ## Monitoring with Terminal
 
-    Monitoring suatu server adalah kegiatan memantau kinerja yang sedang berjalan pada suatu server. Monitoring bertujuan untuk mendapatkan informasi tentang kesehatan dan peforma server, serta mengetahui apabila terjadi suatu masalah pada server.
+Monitoring suatu server adalah kegiatan memantau kinerja yang sedang berjalan pada suatu server. Monitoring bertujuan untuk mendapatkan informasi tentang kesehatan dan peforma server, serta mengetahui apabila terjadi suatu masalah pada server.
 
 - `sudo apt install htop` : untuk menginstal htop
 - `htop` : untuk membuka htop

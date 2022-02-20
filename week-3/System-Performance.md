@@ -1,6 +1,6 @@
 ## System Performance
 
-    System Performance merupakan peforma dari system berdasarkan hardware yang digunakan.
+System Performance merupakan peforma dari system berdasarkan hardware yang digunakan.
 
 - `sudo apt install sysstat` : untuk menginstal vmstat
 
