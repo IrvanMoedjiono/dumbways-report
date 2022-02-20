@@ -1,6 +1,6 @@
 ## Network Firewall
 
-Network Firewall adalah sistem keamanan jaringan komputer yang bertujuan mengontrol semua akses keluar/masuk suatu jaringan berdasarkan aturan yang telah ditetapkan. Network Firewall memiliki fungsi melindungi data/system dari serangan hacker dan mampu memblok konten yang tidak diinginkan.
+<p align="justify">Network Firewall adalah sistem keamanan jaringan komputer yang bertujuan mengontrol semua akses keluar/masuk suatu jaringan berdasarkan aturan yang telah ditetapkan. Network Firewall memiliki fungsi melindungi data/system dari serangan hacker dan mampu memblok konten yang tidak diinginkan.</p>
 
 - `sudo apt install ufw` : untuk menginstall ufw
 
