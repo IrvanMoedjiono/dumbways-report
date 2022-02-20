@@ -72,6 +72,32 @@ Aplication : Software yang melakukan fungsi spesifik secara langsung untuk pengg
 <p align="center"><img src="../week-4/assets/Application-and-Service-Management/16.png"></p>
 <p align="center"><img src="../week-4/assets/Application-and-Service-Management/17.png"></p>
 
+## Menjalankan dan Mengontrol lebih dari 1 aplikasi menggunakan pm2
+
+pm2 : proses manager untuk aplikasi node.js yg berguna untuk membuat aplikasi menyala terus dan juga bisa menjalankan beberapa aplikasi.
+
+- `npm install pm2 -g` : untuk menginstall pm2
+
+<p align="center"><img src="../week-4/assets/Application-and-Service-Management/pm2/15.png"></p>
+
+- `pm2 start nama-dir-app` : untuk menjalankan aplikasi
+
+<p align="center"><img src="../week-4/assets/Application-and-Service-Management/16.png"></p>
+<p align="center"><img src="../week-4/assets/Application-and-Service-Management/17.png"></p>
+
+- `pm2 list` : untuk menampilkan daftar aplikasi
+- `pm2 stop nama-app` : untuk menghentikan aplikasi yang berjalan
+
+<p align="center"><img src="../week-4/assets/Application-and-Service-Management/18.png"></p>
+
+- `pm2 restart nama-app` : untuk merestart aplikasi
+
+<p align="center"><img src="../week-4/assets/Application-and-Service-Management/19.png"></p>
+
+- `pm2 delete nama-app` : untuk menghapus aplikasi dari daftar pm2
+
+<p align="center"><img src="../week-4/assets/Application-and-Service-Management/20.png"></p>
+
 ## Service Management
 
 Service management adalah satu set kemampuan dari suatu aplikasi untuk menyediakan fitur manajemen semua aplikasi yang ada pada sistem operasi.
@@ -85,3 +111,4 @@ Fungsinya memberikan sebuah metode untuk mengaktifkan system resources, daemons 
 - `sudo systemctl restart nginx` : untuk memulai ulang service nginx
 
 <p align="center"><img src="../week-4/assets/Application-and-Service-Management/18.png"></p>
+
